@@ -1,0 +1,146 @@
+Title: Foundation Project
+
+license: https://www.apache.org/licenses/LICENSE-2.0
+
+# {{title}}
+
+The mission of the Apache Software Foundation (ASF) is to provide software 
+for the public good.  We do this by providing services and support for many 
+software project communities consisting of individuals who choose
+to participate in ASF activities.
+
+## What is the ASF?
+
+Established in 1999, the ASF is a US 501(c)(3) charitable organization, funded by 
+individual donations and corporate sponsors.  Our all-volunteer board oversees 
+more than 350 leading Open Source projects, including Apache HTTP Server -- 
+the world's most popular Web server software. 
+
+The ASF provides an established framework for 
+intellectual property and financial contributions that limits potential
+legal exposure for our project committers. 
+Through the ASF's meritocratic process known as "[[]The Apache Way](/theapacheway/)," more than 850 individual
+Members and 8,200 Committers successfully collaborate to develop freely available 
+enterprise-grade software that benefits millions of users worldwide: projects distribute thousands of software 
+solutions under the Apache License; and the community actively participates in ASF mailing lists, mentoring initiatives, and ApacheCon (the Foundation's official user 
+conference), trainings, and other events.
+
+## How did the ASF and Apache&reg; projects grow?
+
+Formerly known as the Apache Group, the ASF was [[]incorporated](records/certificate.html) in 1999 as
+a [[]membership-based][[]1], not-for-profit corporation to ensure that the
+Apache projects continue to exist beyond the participation of individual
+volunteers. Individuals who have demonstrated a commitment to collaborative
+open-source software development, through sustained participation and
+contributions within the Foundation's projects, are eligible for membership
+in the ASF. An individual receives membership after nomination and
+approval by a majority of the existing [[]ASF members](members.html). Thus,
+the ASF is governed by the community it most directly serves: the people
+collaborating within its projects.  
+
+## How are the ASF and Apache projects governed?
+
+The [[]ASF members](members.html) periodically elect a [[]Board of
+Directors](board/) to manage the organizational affairs of the Foundation,
+following the [[]ASF Bylaws](bylaws.html). The Board, in turn, appoints
+a number of officers to oversee the day-to-day operations of the
+Foundation. **[[]Public records](records/)** of our operations are
+available to the community. A more detailed explanation of [[]How the
+ASF works](how-it-works.html) in terms of day to day operations is
+available, and the [[]Apache Community Development project](http://community.apache.org/)'s
+goal is to help newcomers learn more about the Apache Software Foundation.
+
+Project Management Committees (PMCs), made up of individuals who have shown merit and leadership within ASF projects, govern those projects.
+There are detailed descriptions of [[]ASF and project governance models](governance/).
+
+## What is the role of ASF Members?
+
+Since the Foundation is a Delaware membership corporation, [[]Apache Members](governance/members.html) are like shareholders in 
+the legal corporation.  Members vote to elect the Board of Directors and may propose 
+new Member candidates at [[]Annual Members' Meetings](governance/meetings).
+Members have a [[]number of rights and responsibilities documented in our Governance guide](governance/members.html).
+
+Note that Apache Members have a role with respect to the ASF as a corporation, as [[] defined in the ASF's bylaws][[]2]. This is separate from membership in 
+our many Apache Project Management Committees, who are only responsible for 
+development and community management in their individual project.
+
+## Who runs the ASF?
+
+The membership of the ASF elects the nine-member board to run the foundation, to set policy, and to ensure it is carried out. The directors of the board are:
+
+<!-- 
+  N.B. Also: http://apache.org/foundation/board/
+-->
+### Board members
+
+<!--
+  The tables below are now updated automatically from committee-info.json
+  See asfdata.yaml, https://github.com/apache/infrastructure-pelican/blob/master/plugins/asfdata.py
+  which sets up the data
+  ----
+  Not currently appointed, see Dec 2020 board meeting minutes
+  V.P., Finance |  ci.finance.chair  |
+-->
+
+
+|  |  |  |
+|-----------|-----------|-------------|
+| [{ board[0].name }] | [{ board[1].name }] | [{ board[2].name }] |
+| [{ board[3].name }] | [{ board[4].name }] | [{ board[5].name }] | 
+| [{ board[6].name }] | [{ board[7].name }] | [{ board[8].name }] |
+
+### Officers
+
+The Board has appointed the following corporate officers of the ASF:
+
+| Office    | Individual  |
+|-----------|-------------|
+| Board Chair |  [{ ci[boardchair][roster] }] |
+| Vice Chair |  [{ ci[vicechair][roster] }] |
+| President |  [{ ci[president][roster] }] |
+| Exec. V.P |  [{ ci[execvp][roster] }] |
+| [[]Treasurer](https://treasurer.apache.org/) |  [{ ci[treasurer][roster] }] |
+| Assistant Treasurer |  [{ ci[assistanttreasurer][roster] }] |
+| Secretary |  [{ ci[secretary][roster] }] |
+| Assistant Secretary |  [{ ci[assistantsecretary][roster] }] |
+| V.P., [[]Legal Affairs](/legal/) |  [{ ci[legal][chair] }] |
+| Assistant V.P., [[]Legal Affairs](/legal/) |  [{ ci[assistantvplegalaffairs][roster] }] |
+| V.P., [[]Security](/security/) |  [{ ci[security][chair] }] |
+| V.P., [[]Data Privacy](https://privacy.apache.org/) |  [{ ci[dataprivacy][chair] }] |
+| V.P., [[]W3C Relations](https://whimsy.apache.org/board/minutes/W3C_Relations.html) |  [{ ci[w3crelations][roster] }] |
+
+The President has appointed the following corporate officers of the ASF:
+
+| Office    | Individual  |
+|-----------|-------------|
+| V.P., [[]Brand Management](marks/) |  [{ ci[brand][chair] }] |
+| V.P., [[]Conferences](https://events.apache.org/) |  [{ ci[concom][chair] }] |
+| V.P., [[]Diversity and Inclusion](http://diversity.apache.org/) |  [{ ci[diversity][chair] }] |
+| V.P., Fundraising |  [{ ci[fundraising][chair] }] |
+| V.P., [[]Infrastructure](/dev/infrastructure.html) |  [{ ci[infrastructure][roster] }] |
+| V.P., [[]Marketing and Publicity](/press/) |  [{ ci[marketingandpublicity][chair] }] |
+| V.P., [[]Travel Assistance](/travel/) |  [{ ci[tac][chair] }] |
+| [[]Infrastructure Administrator](/dev/infrastructure.html) |  [{ ci[infrastructureadministrator][roster] }] |
+
+VP, Fundraising has appointed the following corporate officers of the ASF:
+
+| Office    | Individual  |
+|-----------|-------------|
+| V.P., Sponsor Relations |  [{ ci[sponsorrelations][roster] }] |
+
+### PMC chairs
+
+The Board has appointed the following Vice Presidents to chair the PMCs 
+of each Apache project:
+
+| Office    | Individual  |
+|-----------|-------------|[for projects]
+| V.P., [if-any projects.site][[][end]Apache [projects.display_name][if-any projects.site]]([projects.site])[end] | [projects.chair] |[end]
+
+The Foundation is a collaborative project of the ASF. Our goal is to build
+and sustain the literal foundation upon which our open-source software
+projects are based.
+
+
+  [[]1]: /foundation/governance/
+  [[]2]: /foundation/bylaws#meetings-of-members
